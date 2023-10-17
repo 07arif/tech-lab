@@ -42,10 +42,47 @@
     margin-bottom: 10px;
 }
 .header-title span{
-    color: rgb(255, 196, 2);
+    color: orange
 }
 .header-description{
     font-size: 18px;
     margin-bottom: 10px;
     color: #141414;
+}
+/* =========service section style=========== */
+#service-section{
+    margin-top: 40px;
+}
+.service-title{
+text-align: center;
+font-size:30px ;
+margin-bottom: 30px;
+}
+
+.orange-text{
+    color: orange;
+}
+.service-section-boxes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin: 0 70px;
+}
+.service-box{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    padding: 20px 20px;
+    background: #fffdd5;
+}
+.service-box img{
+width: 80px;
+height: 80px;
+
+}
+.service-box:hover{
+    border: 2px solid orange;
 }
